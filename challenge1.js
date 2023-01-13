@@ -13,7 +13,7 @@
 var myCloset = ["hat1", "dress", "pants", "sock", "pins"];
 for(i=0; i< myCloset.length; i++){
   if(myCloset[i].length === 4){
-  console.log(myCloset[i]);
+   console.log(myCloset[i]);
   }
 }
 
@@ -22,7 +22,7 @@ for(i=0; i< myCloset.length; i++){
 
 // variable named `myMix` has an array string of names that have lower and upper case letters in them.
 // for statemnet to go through the loop, entier array string leangth and output is the names in array string
-// all in lower cases.
+// all in lower cases with the help of the `toLocaleLowerCase()` array method.
 
 var myMix = ["pArVin","SulTON","MeHrOn",'fariShta'];
 for(i=0;i<myMix.length;i++){
